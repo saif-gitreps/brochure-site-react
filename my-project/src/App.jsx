@@ -1,11 +1,5 @@
-import { useState } from "react";
-
 function App() {
-   return (
-      <>
-         <h1 className="text-green-300">h1</h1>
-      </>
-   );
+   return <></>;
 }
 
 export default App;
