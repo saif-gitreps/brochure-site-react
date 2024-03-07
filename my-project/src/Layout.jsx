@@ -11,7 +11,7 @@ function Layout() {
       <>
          <Header />
          <Outlet />
-         <Footer />
+         {/* <Footer /> */}
       </>
    );
 }
