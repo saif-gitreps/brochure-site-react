@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { Home, About, Contact, User } from "./components/index";
+import { Home, About, Contact, User, Github } from "./components/index";
 import "./index.css";
 import {
    Route,
@@ -35,6 +35,8 @@ import Layout from "./Layout";
 // ]);
 
 //method 2
+// loader allows api calls to happen within the route, this works by calling the api when mouse is hovered
+// over a link, the api will be called and will be stored in cache.
 const router = createBrowserRouter(
    createRoutesFromElements(
       <Route path="/" element={<Layout />}>
@@ -42,6 +44,7 @@ const router = createBrowserRouter(
          <Route path="about" element={<About />} />
          <Route path="contact" element={<Contact />} />
          <Route path="user/:id" element={<User />} />
+         <Route path="github" element={<Github />} />
       </Route>
    )
 );
