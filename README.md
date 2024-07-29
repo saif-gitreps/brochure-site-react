@@ -1,8 +1,6 @@
-# React + Vite
+# Brochure Site Template
+Built with React and styled with Tailwind.css 
+A template for startups and small businesses to use as their first brochure site.
+checkout the live demo: https://brochure-site-six.vercel.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Do contact me if you like it.
